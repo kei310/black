@@ -1,0 +1,31 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap');
+::selection {
+	background: #000;
+	color: #fff;
+}
+::-moz-selection {
+ background: #000;
+ color:#fff;
+}
+* { outline: none; }
+body {
+	font-family: "游明朝体", "YuMincho", "游明朝", "Yu Mincho", 'Noto Serif JP', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", HiraMinProN-W3, "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.09em;
+	color: #fff;
+	background-color: #000;
+	min-width: 1200px;
+}
+body#cb { min-width: 830px; }
+a { color: #fff; }
+a:hover { text-decoration: none; }
+.sp { display: none; }
+#fullWrap {
+	width: 100%;
+	min-width: 1200px;
+	position: relative;
+	min-height: 620px;
+	overflow: hidden;
+}
